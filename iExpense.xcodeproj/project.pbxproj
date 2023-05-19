@@ -11,6 +11,8 @@
 		073D80D12A16E18A00D0F6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80D02A16E18A00D0F6CA /* ContentView.swift */; };
 		073D80D32A16E18C00D0F6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073D80D22A16E18C00D0F6CA /* Assets.xcassets */; };
 		073D80D62A16E18C00D0F6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073D80D52A16E18C00D0F6CA /* Preview Assets.xcassets */; };
+		073D80DD2A180CEE00D0F6CA /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */; };
+		073D80DF2A180D1D00D0F6CA /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80DE2A180D1D00D0F6CA /* Expenses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		073D80D02A16E18A00D0F6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		073D80D22A16E18C00D0F6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073D80D52A16E18C00D0F6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		073D80DE2A180D1D00D0F6CA /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				073D80D02A16E18A00D0F6CA /* ContentView.swift */,
 				073D80D22A16E18C00D0F6CA /* Assets.xcassets */,
 				073D80D42A16E18C00D0F6CA /* Preview Content */,
+				073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */,
+				073D80DE2A180D1D00D0F6CA /* Expenses.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073D80DF2A180D1D00D0F6CA /* Expenses.swift in Sources */,
 				073D80D12A16E18A00D0F6CA /* ContentView.swift in Sources */,
+				073D80DD2A180CEE00D0F6CA /* ExpenseItem.swift in Sources */,
 				073D80CF2A16E18A00D0F6CA /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
