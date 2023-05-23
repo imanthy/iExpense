@@ -13,6 +13,7 @@
 		073D80D62A16E18C00D0F6CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073D80D52A16E18C00D0F6CA /* Preview Assets.xcassets */; };
 		073D80DD2A180CEE00D0F6CA /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */; };
 		073D80DF2A180D1D00D0F6CA /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80DE2A180D1D00D0F6CA /* Expenses.swift */; };
+		073D80E12A1C368B00D0F6CA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D80E02A1C368B00D0F6CA /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		073D80D52A16E18C00D0F6CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		073D80DE2A180D1D00D0F6CA /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		073D80E02A1C368B00D0F6CA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				073D80CE2A16E18A00D0F6CA /* iExpenseApp.swift */,
 				073D80D02A16E18A00D0F6CA /* ContentView.swift */,
+				073D80E02A1C368B00D0F6CA /* AddView.swift */,
 				073D80D22A16E18C00D0F6CA /* Assets.xcassets */,
 				073D80D42A16E18C00D0F6CA /* Preview Content */,
 				073D80DC2A180CEE00D0F6CA /* ExpenseItem.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				073D80DF2A180D1D00D0F6CA /* Expenses.swift in Sources */,
 				073D80D12A16E18A00D0F6CA /* ContentView.swift in Sources */,
+				073D80E12A1C368B00D0F6CA /* AddView.swift in Sources */,
 				073D80DD2A180CEE00D0F6CA /* ExpenseItem.swift in Sources */,
 				073D80CF2A16E18A00D0F6CA /* iExpenseApp.swift in Sources */,
 			);
